@@ -1,0 +1,25 @@
+[Adblock Plus 2.0]
+! Checksum: qi23NYchSPBVmK3AOKoWLQ
+! [Ad Blocking Rules]/blocking
+||b.grabo.bg/special/arenabg/120x240-1/imgs/logo.png
+||0.arenabg.com/var/assets/banners/*
+||time.mk/ads/*
+||images.plusinfo.mk/commercials/*
+||alfa.mk/Upload%5C%5CBaneri%5CJeep_Range_220x120_mkd_201322210549.swf
+||alfa.mk/Upload%5C%5CBaneri%5CCitroen_C3_1.6HDi_220x120_201322210535.swf
+||alfa.mk/Upload%5C%5CBaneri%5Calfa-free-access_2013128145630.jpg
+! [Element Hiding Rules]/elemhide
+##.KeepAnEye_zone_div
+###kae_unique_id_0_parent_div
+time.mk##DIV[style="border: solid 1px #c3c3c3; width: 728px; height: 90px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; position:relative;"]
+time.mk##DIV[style="border: solid 1px #c3c3c3; width: 300px; height: 250px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; position:relative;"]
+time.mk##CENTER
+###block-views-banneri-block-1
+###block-views-banneri-block
+a1on.mk###text-30
+a1on.mk##IMG[src="http://a1on.mk/wordpress/wp-content/uploads/2012/11/trimlum-.jpg"]
+a1on.mk##IMG[src="http://a1on.mk/wordpress/wp-content/uploads/2013/02/baner-sportski.jpg"]
+! [Exception Rules]/whitelist
+@@||192.168.1.51^$document
+@@||etax-fl.ujp.gov.mk^$document
+@@||192.168.1.52^$document
